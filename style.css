@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#animation-container {
+    width: 50%;
+}
+
+#animation-canvas {
+    border: 2px solid black;
+}
+
+#story-container {
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+}
+
+button {
+    margin: 10px;
+}
+
+#narration {
+    display: none;
+}
